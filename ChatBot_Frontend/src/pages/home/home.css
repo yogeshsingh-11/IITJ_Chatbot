@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mainBox{
+    height: 80vh;
+    width: 50vw;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: all ease 0.3s;
+    outline: solid 1px rgb(201, 201, 201);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width: calc(100% - 30px);
+    height: 8.5vh;
+    background-color: #B5F8FF;
+    border-radius: 20px 20px 0px 0px;
+    transition: all ease 0.3s;
+    padding: 0px 15px 0px 15px;
+}
+
+.headerNameBox{
+    display: flex;
+    align-items: center;
+}
+.chatBotLogo{
+    height: 4.5vh;
+    aspect-ratio: auto;
+    margin-right: 10px;
+}
+.headerName{
+    font-size: 20px;
+    font-family: sans-serif;
+    /* font-style: italic; */
+}
+
+.mainMessageBox{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+.mainQueryBox{
+    width: calc(100% - 40px);
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.queryBox{
+    width: calc(90% - 30px);
+    border-radius: 10px;
+    background-color: #E9E9E9;
+    padding: 0px 15px 0px 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    outline: white;
+    border: none;
+    font-size: 17px;
+}
+button {
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  }
+  
+  button:hover span {
+    transform: translateX(5em);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+  
+
+@media(max-width: 1200px){
+    .mainBox{
+        height: 85vh;
+        width: 70vw;
+    }
+    .header{
+        width: 70vw-30px;
+    }
+}
+
+@media(max-width: 768px){
+    .mainBox{
+        height: 90vh;
+        width: 90vw;
+    }
+    .header{
+        width: 90vw-30px;
+    }
+    button {
+        font-size: 16px;
+        padding-left: 5px;
+        padding-right: 25px;
+    }
+}

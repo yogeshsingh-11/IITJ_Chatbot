@@ -1,0 +1,15 @@
+SNo.	Name	                  Roll Number	Position	       Vertical	                             Abbreviation
+1.0	Shashank Asthana	  B21BB005	General Secretary	Student Senate	                        SS
+2.0	Dhyan Naik	          B21EE048	General Secretary	ACAC	                                ACAC
+3.0	Vacant right now			General Secretary	SAC	                                SAC
+4.0	Kumar Ashish Aditya 	  B22EE042	Vice President(VP)	Board of Literary Affairs	        BLA
+5.0	Manas Chechani 		  B22AI053	Vice President(VP)	Board of Student Sports	                BSS
+6.0	Sidharth Bajaj 		  B22CH034	Vice President(VP).     Board of Art and Culture	        BAC
+7.0	Manas Dwiwedi	          B22CI022	Vice-President	        Board of Student Wellfare	        BSW
+8.0	Ritesh Fageria		  B22EE094	Vice President(VP)	Board of Hostel Affairs	                BHA     
+9.0	Raj Vijayvargiya	  B22ES004	Vice President	        Board of Academic Interaction	        BAI
+10.0	Anurag Verma	          B21ES005	Vice President	        Board of Career Developmemt	        BCD
+11.0	Tharakadatta D Hegde	  B22ES007	Vice President	        Society of Alumini Affairs	        SAA
+12.0	Rhythm Baghel		  B22CS042	Vice-President	        Board of co- cirriculat affairs	        BCCA
+13.0	Ayush Goel 		  B22ES013	Vice President	        Board of Innovation and Enterperauship	BIE
+14.0	Vacant			          	Vice President	        Board of Departmemntal Societies	BDS
