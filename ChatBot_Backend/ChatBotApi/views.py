@@ -8,12 +8,11 @@ import pprint
 import google.generativeai as palm
 from llama_index.embeddings.google import GooglePaLMEmbedding
 from llama_index.llms.palm import PaLM
+load_dotenv()
 # Create your views here.
 
 def init():
-    model_name = "models/embedding-gecko-001"
-    api_key = "AIzaSyB82ecM2-7I0EEGMz1uhOzCosYP0BQwvKk"
-    palm_api_key = "AIzaSyB82ecM2-7I0EEGMz1uhOzCosYP0BQwvKk"
+
     palm.configure(api_key=palm_api_key)
     embed_model = GooglePaLMEmbedding(model_name=model_name, api_key=api_key)
     llm = PaLM(api_key=palm_api_key)
